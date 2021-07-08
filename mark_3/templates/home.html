@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title> COVID WEB APP </title>
+        <link rel ="stylesheet" href ="style.css">
+        <link rel ="stylesheet" href ="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    </head>
+<body>
+    <div class ="container" >
+        <div class ="menu">
+            <ul>
+                <li class="logo"><img src="somelogo.png"></li>
+                <li class="active"> Home </li>
+                <li>  Avail Services</li>
+                <li> Offer Services </li>
+                <li> NGO's </li>
+                <li> Volunteers </li>
+                <li> <a href ="{{url_for('signup')}}" class = "signup-btp"><span></span> Sign Up</a></li>
+            </ul>
+        </div>
+        <div class = "banner">
+            <div class = "app-text">
+                <h2> HOME </h2>
+                <p> An application that allows infected individuals and families <br> and their caregivers to easily avail themselves <br> of multiple services/offerings by volunteers in their vicinity or across the country.
+                    </p>
+                <div class="play-btn">
+                    <div class="play-btn-inner"><i class="fa fa-laptop" aria-hidden="true"></i>
+                    </div>
+                    <small> <b> BLOG </b> </small>
+                </div>
+            </div>
+            <div class ="app-picture">
+            <img src ="main.jpg">
+            </div>
+        </div>
+    </div>
+</body>
